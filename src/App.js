@@ -1,8 +1,9 @@
 import FirstSlide from "./components/start/FirstSlide";
 
 function App() {
-  return (
+  return (<>
     <FirstSlide />
+    </>
   );
 }
 
