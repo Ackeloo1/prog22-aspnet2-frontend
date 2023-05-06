@@ -1,8 +1,8 @@
-import FirstSlide from "./components/start/FirstSlide";
+import ForgotPassword from './components/login/ForgotPassword';
 
 function App() {
   return (<>
-    <FirstSlide />
+    <ForgotPassword />
     </>
   );
 }

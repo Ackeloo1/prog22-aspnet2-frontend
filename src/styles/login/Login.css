@@ -1,0 +1,159 @@
+.login-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  display: flex;  
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.back-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.back-button{
+  transform: rotate(45deg);
+  border: 2px;
+  border-bottom-style: solid ;
+  border-left-style: solid ;
+  width: 15px;
+  height: 15px;
+}
+
+.test{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header-section{
+  text-align: center;
+}
+
+h4{
+  color: grey;
+}
+
+.email-text {
+  position: absolute;
+  text-align: center;
+  top: -12px;
+  left: 18px;
+  background-color: white;
+  width: 65px;
+}
+
+.email-border {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 40px;
+  border-radius: 25px;
+  border: solid grey 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+
+.password-text{
+  position: absolute;
+  text-align: center;
+  top: -12px;
+  left: 18px;
+  background-color: white;
+  width: 100px;
+}
+
+.password-border{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 40px;
+  border-radius: 25px;
+  border: solid grey 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input{
+  border: none  ;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+input:focus{
+  outline: none;
+}
+
+.remember-me{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-right: 50px;
+  height: 20px;
+}
+
+.check{
+  cursor: pointer;
+}
+
+.help-section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.forgot-password{
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 20px;
+}
+
+.signin-button{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: 280px;
+  height: 50px;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signin-button:focus{
+  outline: none;
+}
+
+.signup-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.signup-button{
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  margin-top: 2px;
+  font-size: 14px;
+}
